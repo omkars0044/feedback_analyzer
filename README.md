@@ -29,9 +29,9 @@ The fun part: the frontend calls your *own* backend the same way you called the 
 ## Step 1: Set up the project
 
 ```bash
-uv init 11_project_feedback_analyzer
-cd 11_project_feedback_analyzer
-uv add "fastapi[standard]" google-genai python-dotenv pydantic streamlit requests
+git clone https://github.com/omkars0044/feedback_analyzer.git
+cd feedback_analyzer
+uv sync
 ```
 
 Create a `.env` file in the project directory and put your Gemini key in it:
