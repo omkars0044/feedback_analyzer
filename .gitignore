@@ -1,0 +1,6 @@
+.env
+sample.env
+.venv/
+__pycache__/
+*.py[cod]
+feedback.db
